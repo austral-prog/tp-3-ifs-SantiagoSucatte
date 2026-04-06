@@ -18,7 +18,8 @@ def weekday():
         Fin de semana
     """
 
-    dia = input().lower()
+    dia = input()
+    dia = dia.lower()
     if dia == "sabado" or dia == "domingo":
         dia = False
     else:
